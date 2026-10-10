@@ -1,0 +1,6 @@
+.social-grid .facebook-mark,.social-grid .instagram-mark,.social-grid .youtube-mark{display:grid;place-items:center;width:24px;height:24px;font-weight:900;font-size:22px;line-height:1}
+.social-grid .facebook-mark{color:#087bea}.social-grid .instagram-mark{color:#ef416b}.social-grid .youtube-mark{color:#e31b23;font-size:17px}
+.contact-page .contact-hero{height:clamp(330px,32vw,430px);aspect-ratio:auto;background:#eaf5ff}
+.contact-page .contact-hero>img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center 52%}
+.contact-page .contact-hero:after{content:none}
+@media(max-width:560px){.contact-page .contact-hero{height:380px}.contact-page .contact-hero>img{object-position:61% center}}

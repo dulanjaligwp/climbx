@@ -1,0 +1,9 @@
+goclimbx.com, www.goclimbx.com {
+    encode zstd gzip
+    reverse_proxy frontend:80
+}
+
+api.goclimbx.com {
+    encode zstd gzip
+    reverse_proxy backend:10000
+}
